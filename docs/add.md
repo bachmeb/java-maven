@@ -14,3 +14,15 @@
     * Click Next
     * Accept the license agreement
     * Restart
+
+##### Move your code into the src/main/java folder
+
+##### Move your unit tests to src/test/java
+
+##### DO NOT copy your libraries & jars
+
+##### Check all the compilation errors caused because of the missing jars
+
+##### Add dependency of each missing jar to pom.xml. 
+* You can get the dependency from the maven repository websites. 
+* If you have already indexed the repositories in m2e plugin, then you can simply search of the dependency within the plugin and add it from right there.
