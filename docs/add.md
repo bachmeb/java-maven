@@ -26,5 +26,14 @@
 ##### Create pom.xml in project root
 
 ##### Add dependency of each missing jar to pom.xml. 
-* You can get the dependency from the maven repository websites. 
-* If you have already indexed the repositories in m2e plugin, then you can simply search of the dependency within the plugin and add it from right there.
+
+###### Example: Apache Commons Net 3.5
+* https://mvnrepository.com/artifact/commons-net/commons-net/3.5
+```xml
+<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+<dependency>
+    <groupId>commons-net</groupId>
+    <artifactId>commons-net</artifactId>
+    <version>3.5</version>
+</dependency>
+```
