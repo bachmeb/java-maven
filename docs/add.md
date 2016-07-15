@@ -23,6 +23,8 @@
 
 ##### Check all the compilation errors caused because of the missing jars
 
+##### Create pom.xml in project root
+
 ##### Add dependency of each missing jar to pom.xml. 
 * You can get the dependency from the maven repository websites. 
 * If you have already indexed the repositories in m2e plugin, then you can simply search of the dependency within the plugin and add it from right there.
