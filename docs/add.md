@@ -2,6 +2,7 @@
 
 ## References
 * http://stackoverflow.com/questions/7139560/convert-existing-project-to-a-maven-project
+* http://blog.sonatype.com/2009/04/how-to-convert-from-ant-to-maven-in-5-minutes/
 
 ##### Add the m2e plugin
 * Window > Preferences > Install/Update > Available Software Sites > Add
@@ -37,3 +38,5 @@
     <version>3.5</version>
 </dependency>
 ```
+
+##### Update indexes
